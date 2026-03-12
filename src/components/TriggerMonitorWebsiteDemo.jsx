@@ -70,8 +70,8 @@ const ASSET_BASE = (import.meta.env.BASE_URL || "/").replace(/\/?$/, "/");
 const BRAND = {
   firm: "Parity Research",
   product: "Trigger Monitor",
-  logoSrc: `${ASSET_BASE}branding/LOGO.png`,
-  logoFallbackSrc: `${ASSET_BASE}branding/parity-research-logo.svg`,
+  logoSrc: `${ASSET_BASE}branding/LOGO.png?v=20260312`,
+  logoFallbackSrc: `${ASSET_BASE}branding/parity-research-logo.svg?v=20260312`,
 };
 
 async function loadExplorerData() {
