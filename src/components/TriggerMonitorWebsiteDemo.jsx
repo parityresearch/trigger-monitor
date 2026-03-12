@@ -218,7 +218,7 @@ function Nav({ active, onNavigate }) {
     <div className="sticky top-0 z-40 backdrop-blur bg-white/95 border-b border-border">
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <BrandLogo className="h-14 w-auto" />
+          <BrandLogo className="h-10 md:h-12 w-auto" />
           <div className="leading-tight">
             <div className="font-semibold brand-serif tracking-wide">{BRAND.firm}</div>
             <div className="text-xs text-muted-foreground brand-caps">{BRAND.product}</div>
@@ -256,8 +256,8 @@ function Hero({ onNavigate }) {
         className="space-y-6"
       >
         <div className="flex flex-col items-center">
-          <div className="w-[340px] md:w-[420px] h-[210px] md:h-[250px] overflow-hidden">
-            <BrandLogo className="w-full h-full object-cover scale-125 -translate-y-2" />
+          <div className="w-[240px] sm:w-[300px] md:w-[360px] h-[110px] sm:h-[140px] md:h-[170px] flex items-center justify-center">
+            <BrandLogo className="w-full h-full object-contain" />
           </div>
         </div>
         <Pill className="w-fit mx-auto">SEC EDGAR 10-D filings • 40 deals • Auto ABS</Pill>
@@ -1025,7 +1025,7 @@ export default function TriggerMonitorWebsiteDemo() {
       <footer className="border-t border-border bg-[#f2efea]">
         <div className="mx-auto max-w-6xl px-4 py-8 flex flex-col md:flex-row gap-3 items-start md:items-center justify-between">
           <div className="flex items-center gap-4">
-            <BrandLogo className="h-14 w-auto" />
+            <BrandLogo className="h-10 md:h-12 w-auto" />
             <div className="text-sm text-muted-foreground brand-serif">{BRAND.firm} • {BRAND.product}</div>
           </div>
           <div className="text-xs text-muted-foreground">Built on SEC EDGAR 10-D filings. Not investment advice.</div>
