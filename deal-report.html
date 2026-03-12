@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trigger Monitor - Deal Report</title>
+    <style>
+      :root {
+        --ink: #111111;
+        --muted: #5b5b5b;
+        --border: #dddddd;
+        --paper: #ffffff;
+        --accent: #f3efe9;
+        --accent-2: #f7f4ef;
+        --green: #1f4d2b;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Times New Roman", Times, serif;
+        color: var(--ink);
+        background: linear-gradient(180deg, var(--accent) 0%, #ffffff 30%);
+      }
+      .wrap { max-width: 1100px; margin: 0 auto; padding: 28px 20px 60px; }
+      .header {
+        display: flex; align-items: center; justify-content: space-between;
+        background: var(--accent); padding: 20px 24px; border-radius: 16px;
+        border: 1px solid var(--border);
+      }
+      .brand { font-size: 24px; font-weight: 700; }
+      .sub { font-size: 13px; color: var(--muted); margin-top: 2px; }
+      .asof { font-size: 13px; color: var(--muted); }
+      .section { margin-top: 24px; }
+      .section h2 { font-size: 18px; margin: 0 0 10px; }
+      .grid-3 { display: grid; gap: 12px; grid-template-columns: repeat(3, 1fr); }
+      .grid-2 { display: grid; gap: 16px; grid-template-columns: repeat(2, 1fr); }
+      .card {
+        background: var(--paper);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 16px;
+      }
+      .kpi { font-size: 22px; font-weight: 700; }
+      .label { font-size: 12px; color: var(--muted); }
+      table { width: 100%; border-collapse: collapse; font-size: 13px; }
+      th, td { padding: 10px 8px; border-bottom: 1px solid var(--border); text-align: left; }
+      th { background: var(--accent-2); font-weight: 700; }
+      .muted { color: var(--muted); }
+      .pill { display: inline-block; padding: 4px 8px; border-radius: 999px; font-size: 11px; background: var(--accent-2); border: 1px solid var(--border); }
+      .bar {
+        height: 10px; background: #e9e4dc; border-radius: 999px; overflow: hidden;
+      }
+      .bar > span { display: block; height: 100%; background: #111111; }
+      .foot { font-size: 11px; color: var(--muted); margin-top: 20px; }
+      .svg-wrap { border: 1px solid var(--border); border-radius: 12px; padding: 10px; background: #fff; }
+      .row { display: flex; gap: 12px; align-items: center; }
+      .row .grow { flex: 1; }
+      @media (max-width: 900px) {
+        .grid-3, .grid-2 { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <div>
+          <div class="brand">Trigger Monitor</div>
+          <div class="sub">Deal report</div>
+          <div class="muted" id="status">Loading data...</div>
+        </div>
+        <div class="asof" id="asOf">As of —</div>
+      </div>
+
+      <div class="section">
+        <div class="grid-3" id="summary"></div>
+      </div>
+
+      <div class="section card">
+        <h2>Deal overview</h2>
+        <div class="grid-2">
+          <div>
+            <div><strong id="dealId">—</strong></div>
+            <div class="muted" id="dealMeta">—</div>
+          </div>
+          <div>
+            <div class="row">
+              <div class="pill" id="macroLabel">Macro regime</div>
+              <div class="muted" id="macroDetail">—</div>
+            </div>
+            <div class="row" style="margin-top: 8px;">
+              <div class="grow">
+                <div class="label">Deal risk (max trigger score)</div>
+                <div class="bar"><span id="dealRiskBar" style="width:0%"></span></div>
+              </div>
+              <div class="kpi" id="dealRisk">—</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section card">
+        <h2>Trigger detail</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Trigger</th>
+              <th>Threshold</th>
+              <th>Current</th>
+              <th>Cushion</th>
+              <th>3m change</th>
+              <th>Risk</th>
+            </tr>
+          </thead>
+          <tbody id="triggerRows"></tbody>
+        </table>
+        <div class="section" style="margin-top: 12px;">
+          <div class="label">Score breakdown (top trigger)</div>
+          <div id="scoreBreakdown"></div>
+        </div>
+      </div>
+
+      <div class="section card">
+        <h2>Collateral dashboard</h2>
+        <div class="grid-3" id="collateralMetrics"></div>
+      </div>
+
+      <div class="section">
+        <div class="grid-2">
+          <div class="card">
+            <h2>Trigger cushion over time</h2>
+            <div class="svg-wrap" id="cushionChart"></div>
+          </div>
+          <div class="card">
+            <h2>60+ delinquency trend</h2>
+            <div class="svg-wrap" id="dqChart"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section card">
+        <h2>Methodology</h2>
+        <div class="muted" id="explanation">—</div>
+      </div>
+
+      <div class="foot">
+        This report is a sample. Production reports are tailored to your positions.
+      </div>
+    </div>
+
+    <script>
+      function fmtPct(x) { return Number.isFinite(x) ? (x * 100).toFixed(1) + "%" : "—"; }
+      function fmtNum(x, d = 2) { return Number.isFinite(x) ? x.toFixed(d) : "—"; }
+      function escapeHtml(str) {
+        const map = { "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" };
+        return String(str).replace(/[&<>\"']/g, (c) => map[c]);
+      }
+      function macroLabel(pct, hasSource) {
+        if (!hasSource) return "Normal";
+        if (pct >= 0.85) return "Severe";
+        if (pct >= 0.70) return "Moderate";
+        return "Normal";
+      }
+      function drawLineChart(target, labels, values, color) {
+        const w = 420, h = 180, pad = 28;
+        const min = Math.min(...values), max = Math.max(...values);
+        const vmin = Number.isFinite(min) ? min : 0;
+        const vmax = Number.isFinite(max) ? max : 1;
+        const scale = (v) => {
+          const t = (v - vmin) / ((vmax - vmin) || 1);
+          return h - pad - t * (h - pad * 2);
+        };
+        const x = (i) => pad + (w - pad * 2) * (i / Math.max(1, labels.length - 1));
+        let d = "";
+        values.forEach((v, i) => {
+          d += (i === 0 ? "M" : "L") + x(i).toFixed(1) + " " + scale(v).toFixed(1) + " ";
+        });
+        const ticks = 4;
+        let yTicks = "";
+        for (let i = 0; i < ticks; i++) {
+          const t = vmin + (vmax - vmin) * (i / (ticks - 1));
+          const yy = scale(t);
+          yTicks += `<text x=\"4\" y=\"${yy + 4}\" font-size=\"9\" fill=\"#666\">${t.toFixed(2)}</text>`;
+          yTicks += `<line x1=\"${pad}\" y1=\"${yy}\" x2=\"${pad - 4}\" y2=\"${yy}\" stroke=\"#999\" stroke-width=\"1\" />`;
+        }
+        let xTicks = "";
+        labels.forEach((lab, i) => {
+          const xx = x(i);
+          xTicks += `<text x=\"${xx - 6}\" y=\"${h - 6}\" font-size=\"9\" fill=\"#666\">${escapeHtml(lab)}</text>`;
+          xTicks += `<line x1=\"${xx}\" y1=\"${h - pad}\" x2=\"${xx}\" y2=\"${h - pad + 4}\" stroke=\"#999\" stroke-width=\"1\" />`;
+        });
+        target.innerHTML = `
+          <svg width=\"100%\" viewBox=\"0 0 ${w} ${h}\">
+            <rect x=\"0\" y=\"0\" width=\"${w}\" height=\"${h}\" fill=\"#fff\" stroke=\"#ddd\" />
+            <line x1=\"${pad}\" y1=\"${pad}\" x2=\"${pad}\" y2=\"${h - pad}\" stroke=\"#999\" />
+            <line x1=\"${pad}\" y1=\"${h - pad}\" x2=\"${w - pad}\" y2=\"${h - pad}\" stroke=\"#999\" />
+            ${yTicks}
+            ${xTicks}
+            <path d=\"${d}\" fill=\"none\" stroke=\"${color}\" stroke-width=\"2\" />
+          </svg>`;
+      }
+
+      async function loadData() {
+        const urlParams = new URLSearchParams(location.search);
+        const dealIdParam = urlParams.get("deal");
+        const statusEl = document.getElementById("status");
+        if (location.protocol === "file:") {
+          statusEl.textContent =
+            "Open this report from the running site (http://localhost:5173/deal-report.html) so it can load JSON data.";
+          return;
+        }
+        const sources = ["./data/trigger_monitor_demo.json", "/data/trigger_monitor_demo.json", "./out/trigger_monitor_demo.json", "/out/trigger_monitor_demo.json"];
+        let data = null;
+        const attempts = [];
+        for (const src of sources) {
+          try {
+            const res = await fetch(src, { cache: "no-store" });
+            attempts.push(`${src} -> ${res.status}`);
+            if (res.ok) { data = await res.json(); break; }
+          } catch (e) {}
+        }
+        if (!data) {
+          statusEl.textContent =
+            `No data loaded. Tried: ${attempts.join(", ")}. Open ${location.origin}/data/trigger_monitor_demo.json to verify.`;
+          return;
+        }
+        statusEl.textContent = "";
+
+        const asOf = data.asOf || "—";
+        document.getElementById("asOf").textContent = "As of " + asOf;
+        const deal = (data.deals || []).find((d) => d.dealId === dealIdParam) || (data.deals || [])[0];
+        if (!deal) {
+          statusEl.textContent = "Deal not found in data.";
+          return;
+        }
+
+        const summary = document.getElementById("summary");
+        const kpis = [
+          { label: "Deals monitored", value: data.portfolio?.deals ?? "—" },
+          { label: "Flagged (risk >=45%)", value: data.portfolio?.flagged ?? "—" },
+          { label: "Red (risk >=75%)", value: data.portfolio?.red ?? "—" },
+        ];
+        summary.innerHTML = kpis.map((k) => `
+          <div class=\"card\">
+            <div class=\"kpi\">${escapeHtml(k.value)}</div>
+            <div class=\"label\">${escapeHtml(k.label)}</div>
+          </div>
+        `).join("");
+
+        document.getElementById("dealId").textContent = deal.dealId || "—";
+        document.getElementById("dealMeta").textContent = `${deal.collateral || "-"} · ${deal.tranche || "-"} · ${deal.geo || "-"}`;
+
+        const macro = deal.macro || {};
+        const macroPct = Number.isFinite(macro.percentile) ? macro.percentile : 0;
+        const macroLabelText = macroLabel(macroPct, Boolean(macro.source));
+        document.getElementById("macroLabel").textContent = macroLabelText;
+        const macroDetail = [];
+        if (macro.series) macroDetail.push(macro.series);
+        if (macro.source) macroDetail.push(macro.source);
+        if (macro.asOf) macroDetail.push("as of " + macro.asOf);
+        document.getElementById("macroDetail").textContent = macroDetail.join(" · ") || "—";
+
+        const maxScore = Math.max(...(deal.triggers || []).map((t) => t.score || 0), 0);
+        document.getElementById("dealRisk").textContent = Math.round(maxScore * 100) + "%";
+        document.getElementById("dealRiskBar").style.width = Math.round(maxScore * 100) + "%";
+
+        const triggerRows = document.getElementById("triggerRows");
+        triggerRows.innerHTML = (deal.triggers || []).map((t) => `
+          <tr>
+            <td>${escapeHtml(t.metric || "-")}</td>
+            <td>${fmtPct(t.threshold)}</td>
+            <td>${fmtPct(t.current)}</td>
+            <td>${fmtPct(t.cushion)}</td>
+            <td>${fmtPct(t.change3m)}</td>
+            <td>${Math.round((t.score || 0) * 100)}%</td>
+          </tr>
+        `).join("");
+
+        const topTrigger = (deal.triggers || []).slice().sort((a, b) => (b.score || 0) - (a.score || 0))[0];
+        const breakdown = topTrigger?.scoreBreakdown || {};
+        const breakdownEl = document.getElementById("scoreBreakdown");
+        const items = [
+          ["Cushion distance", breakdown.cushion],
+          ["3m deterioration", breakdown.trend3m],
+          ["Volatility", breakdown.vol6m],
+          ["Macro percentile", breakdown.macro],
+        ];
+        breakdownEl.innerHTML = items.map(([label, val]) => `
+          <div class=\"row\" style=\"margin: 6px 0;\">
+            <div style=\"width: 160px;\" class=\"muted\">${label}</div>
+            <div class=\"grow bar\"><span style=\"width: ${Math.round((val || 0) * 100)}%\"></span></div>
+            <div style=\"width: 40px; text-align: right;\">${Math.round((val || 0) * 100)}%</div>
+          </div>
+        `).join("");
+
+        const metrics = document.getElementById("collateralMetrics");
+        metrics.innerHTML = (deal.collateralMetrics || []).map((m) => `
+          <div class=\"card\">
+            <div class=\"label\">${escapeHtml(m.name || "-")}</div>
+            <div class=\"kpi\">${fmtPct(m.cur)}</div>
+            <div class=\"muted\">3m change: ${fmtPct(m.chg)}</div>
+          </div>
+        `).join("");
+
+        const cushion = deal.cushionSeries || [];
+        const dq = deal.dqSeries || [];
+        drawLineChart(
+          document.getElementById("cushionChart"),
+          cushion.map((p) => p.m),
+          cushion.map((p) => (p.dq || 0) * 100),
+          "#111111"
+        );
+        drawLineChart(
+          document.getElementById("dqChart"),
+          dq.map((p) => p.m),
+          dq.map((p) => (p.dq60 || 0) * 100),
+          "#1f4d2b"
+        );
+
+        document.getElementById("explanation").textContent = deal.explanation || "—";
+      }
+
+      window.addEventListener("error", (event) => {
+        const statusEl = document.getElementById("status");
+        if (statusEl) {
+          statusEl.textContent = `Error: ${event.message}`;
+        }
+      });
+
+      loadData();
+    </script>
+  </body>
+  </html>

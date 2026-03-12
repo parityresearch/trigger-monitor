@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Parity Research Logo</title>
+  <desc id="desc">A serif P above the words PARITY RESEARCH.</desc>
+  <rect width="500" height="500" fill="none" />
+  <text
+    x="250"
+    y="190"
+    text-anchor="middle"
+    font-family="Times New Roman, Georgia, serif"
+    font-size="150"
+    fill="#111111"
+  >
+    P
+  </text>
+  <text
+    x="250"
+    y="300"
+    text-anchor="middle"
+    font-family="Times New Roman, Georgia, serif"
+    font-size="64"
+    letter-spacing="16"
+    fill="#111111"
+  >
+    PARITY
+  </text>
+  <text
+    x="250"
+    y="370"
+    text-anchor="middle"
+    font-family="Times New Roman, Georgia, serif"
+    font-size="48"
+    letter-spacing="11"
+    fill="#111111"
+  >
+    RESEARCH
+  </text>
+</svg>
