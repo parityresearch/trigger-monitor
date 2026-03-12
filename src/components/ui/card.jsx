@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d7ccc473540e23cc82c0bbde31acc051d8b8d1a87870eb862dd73719d25d0252
-size 740
+import React from 'react'
+
+export function Card({ className = '', ...props }) {
+  return <div className={`border border-border bg-background shadow-sm ${className}`} {...props} />
+}
+
+export function CardHeader({ className = '', ...props }) {
+  return <div className={`p-6 ${className}`} {...props} />
+}
+
+export function CardTitle({ className = '', ...props }) {
+  return <div className={`font-semibold leading-none tracking-tight ${className}`} {...props} />
+}
+
+export function CardDescription({ className = '', ...props }) {
+  return <div className={`text-sm text-muted-foreground ${className}`} {...props} />
+}
+
+export function CardContent({ className = '', ...props }) {
+  return <div className={`p-6 pt-0 ${className}`} {...props} />
+}

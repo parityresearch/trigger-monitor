@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae0fab2e4ef2646f64d8a12924bad1e280d773869567128a5af2f06f3b887e81
-size 645
+{
+  "deals": [
+    {
+      "deal_id": "Santander Drive Auto Receivables Trust 2024-3",
+      "cik": "2024522",
+      "cusip": "80290RAA8",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "High DQ rates typical for Santander Drive",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    }
+  ]
+}

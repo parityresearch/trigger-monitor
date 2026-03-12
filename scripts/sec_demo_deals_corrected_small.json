@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d4adfac41d876f5dfc40da6beaacc234c199a7ca93f2f40453a1377e33846036
-size 512
+[
+  {
+    "deal_id": "Toyota Auto Receivables 2024-D Owner Trust",
+    "cik": "2036936",
+    "cusip": "N/A",
+    "collateral": "Auto ABS",
+    "geo": "US",
+    "tranche": "Class A",
+    "macro_theme": "Auto delinquencies",
+    "macro_series": "Auto ABS delinquencies",
+    "triggers": [
+      {
+        "trigger_id": "DQ_TRIGGER",
+        "metric_key": "delinquency_60_plus",
+        "metric_label": "60+ DQ %",
+        "direction": "<=",
+        "threshold": 0.10,
+        "series_key": "dq"
+      }
+    ]
+  }
+]

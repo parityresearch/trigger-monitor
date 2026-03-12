@@ -1,3 +1,49 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:439ae9e48c506210e694dbe784dedfa9b9ff282101b6de8cda44eac1a55dec45
-size 1357
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 220 18% 14%;
+  --muted: 34 14% 93%;
+  --muted-foreground: 220 9% 33%;
+  --border: 34 9% 81%;
+  --ring: 220 18% 20%;
+  --destructive: 2 72% 47%;
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: "Source Sans 3", "Avenir Next", "Segoe UI", sans-serif;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+/* shadcn-ish utility tokens */
+.bg-background { background: hsl(var(--background)); }
+.text-foreground { color: hsl(var(--foreground)); }
+.bg-muted { background: hsl(var(--muted)); }
+.text-muted-foreground { color: hsl(var(--muted-foreground)); }
+.border-border { border-color: hsl(var(--border)); }
+
+/* subtle default focus */
+:focus-visible { outline: 2px solid hsl(var(--ring)); outline-offset: 2px; }
+
+/* Brand helpers */
+.brand-serif {
+  font-family: "Cormorant Garamond", "Baskerville", "Times New Roman", serif;
+}
+
+.brand-caps {
+  font-family: "Cormorant Garamond", "Baskerville", "Times New Roman", serif;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+::selection {
+  background: hsl(32 35% 78% / 0.65);
+  color: hsl(var(--foreground));
+}

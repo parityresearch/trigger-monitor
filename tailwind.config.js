@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:550fe909b7487203e92ec4b0aaa143c5ba0f4a735a64f929895dc3add92a6972
-size 224
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {
+      borderRadius: {
+        '2xl': '1rem'
+      }
+    }
+  },
+  plugins: []
+}

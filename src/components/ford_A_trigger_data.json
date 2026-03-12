@@ -1,3 +1,62 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d8bf2cd834a7d94254b1e2546e0b447eb9cd487a565fc2103d4b93e80f2f03d
-size 1572
+[
+  {
+    "month": "2025-11",
+    "filepath": "src/components/Ford-2025-A.html",
+    "poolBalance": 1264722768.7,
+    "totalDelinq": 0.91,
+    "delinq61plus": 0.1358,
+    "cumLossRatio": 0.1178,
+    "trigger": 0.8,
+    "numContracts": null,
+    "transactionMonth": 9,
+    "deal": "Ford-2025",
+    "cushion": 4.891016200294551,
+    "slope": 0.0,
+    "volatility": 0.0,
+    "projected_1m": 4.891016200294551,
+    "projected_2m": 4.891016200294551,
+    "projected_3m": 4.891016200294551,
+    "breach_prob_1m": 0.0,
+    "breach_prob_3m": 0.0
+  },
+  {
+    "month": "2025-11",
+    "filepath": "src/components/Ford-2025-B.html",
+    "poolBalance": 1538447182.74,
+    "totalDelinq": 0.52,
+    "delinq61plus": 0.053,
+    "cumLossRatio": 0.0018,
+    "trigger": 0.8,
+    "numContracts": null,
+    "transactionMonth": 3,
+    "deal": "Ford-2025",
+    "cushion": 14.094339622641511,
+    "slope": 0.0,
+    "volatility": 0.0,
+    "projected_1m": 14.094339622641511,
+    "projected_2m": 14.094339622641511,
+    "projected_3m": 14.094339622641511,
+    "breach_prob_1m": 0.0,
+    "breach_prob_3m": 0.0
+  },
+  {
+    "month": "2025-11",
+    "filepath": "src/components/Ford-2025-C.html",
+    "poolBalance": 1096614974.63,
+    "totalDelinq": 0.35,
+    "delinq61plus": 0.0,
+    "cumLossRatio": 0.0,
+    "trigger": 0.8,
+    "numContracts": null,
+    "transactionMonth": 1,
+    "deal": "Ford-2025",
+    "cushion": null,
+    "slope": 0.0,
+    "volatility": 0.0,
+    "projected_1m": null,
+    "projected_2m": null,
+    "projected_3m": null,
+    "breach_prob_1m": 0.0,
+    "breach_prob_3m": 0.0
+  }
+]

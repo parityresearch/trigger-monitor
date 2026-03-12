@@ -1,3 +1,1921 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a7ef4b5cecb8cf48ff78dbf529f49abf04687289be2666823359187459bd6d7
-size 57406
+{
+  "deals": [
+    {
+      "deal_id": "Mercedes-Benz Auto Receivables Trust 2025-1",
+      "cik": "2044492",
+      "cusip": "58773DAA2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Mercedes-Benz Auto Receivables Trust 2024-1",
+      "cik": "1998822",
+      "cusip": "58771PAA0",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Mercedes-Benz Auto Receivables Trust 2023-2",
+      "cik": "1993977",
+      "cusip": "58769FAA3",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Mercedes-Benz Auto Receivables Trust 2023-1",
+      "cik": "1957424",
+      "cusip": "58770AAB9",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Mercedes-Benz Auto Receivables Trust 2022-1",
+      "cik": "1951118",
+      "cusip": "58768LAA3",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Mercedes-Benz Auto Receivables Trust 2021-1",
+      "cik": "1878122",
+      "cusip": "58767KAA0",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Santander Drive Auto Receivables Trust 2024-3",
+      "cik": "2024522",
+      "cusip": "80290RAA8",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "High DQ rates typical for Santander Drive",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Santander Drive Auto Receivables Trust 2024-2",
+      "cik": "0002018245",
+      "cusip": "80290QAA0",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Santander Drive Auto Receivables Trust 2023-2",
+      "cik": "0001964220",
+      "cusip": "80289TAA5",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Santander Drive Auto Receivables Trust 2022-4",
+      "cik": "0001934902",
+      "cusip": "80290PAA3",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "2022 vintage showing stress",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Drive Auto Receivables Trust 2024-2",
+      "cik": "2036081",
+      "cusip": "26209KAA9",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Drive Auto Receivables Trust 2023-2",
+      "cik": "1999778",
+      "cusip": "26209JAA2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Drive Auto Receivables Trust 2021-3",
+      "cik": "1890433",
+      "cusip": "26209DAA4",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Ford Credit Auto Owner Trust 2024-B",
+      "cik": "2023756",
+      "cusip": "345370AB1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Ford Credit Auto Owner Trust 2024-A",
+      "cik": "2014176",
+      "cusip": "345370AA3",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Ford Credit Auto Owner Trust 2023-C",
+      "cik": "0001998559",
+      "cusip": "345369AD8",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "GM Financial Consumer Automobile Receivables Trust 2024-4",
+      "cik": "2036780",
+      "cusip": "36257KAA9",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "GM Financial Consumer Automobile Receivables Trust 2024-3",
+      "cik": "0002026197",
+      "cusip": "36257JAB2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Honda Auto Receivables Owner Trust 2024-3",
+      "cik": "0002029555",
+      "cusip": "43814LAA1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Honda Auto Receivables Owner Trust 2024-2",
+      "cik": "0002019551",
+      "cusip": "43814KAA3",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Toyota Auto Receivables 2024-D Owner Trust",
+      "cik": "2036936",
+      "cusip": "89238DAA6",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Toyota Auto Receivables 2024-C Owner Trust",
+      "cik": "0002026605",
+      "cusip": "89238CAB8",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Toyota Auto Receivables 2022-D Owner Trust",
+      "cik": "0001946790",
+      "cusip": "89236DAA3",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Nissan Auto Receivables Owner Trust 2024-B",
+      "cik": "2035264",
+      "cusip": "654747AB5",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Nissan Auto Receivables Owner Trust 2024-A",
+      "cik": "2010413",
+      "cusip": "654747AA7",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Hyundai Auto Receivables Trust 2024-B",
+      "cik": "0002027363",
+      "cusip": "448936AB4",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Hyundai Auto Receivables Trust 2024-A",
+      "cik": "0002010834",
+      "cusip": "448936AA6",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "CarMax Auto Owner Trust 2024-4",
+      "cik": "0002037519",
+      "cusip": "14313FAA2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime to Near-prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "CarMax Auto Owner Trust 2024-3",
+      "cik": "0002029255",
+      "cusip": "14313EAB5",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime to Near-prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Ally Auto Receivables Trust 2024-2",
+      "cik": "2035124",
+      "cusip": "02007PAA4",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime to Near-prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Ally Auto Receivables Trust 2024-1",
+      "cik": "2010413",
+      "cusip": "02007NAB7",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime to Near-prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "World Omni Auto Receivables Trust 2024-B",
+      "cik": "0002021535",
+      "cusip": "98163LAB2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "World Omni Select Auto Trust 2024-A",
+      "cik": "0002026491",
+      "cusip": "98164MAA5",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Near-prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "BMW Vehicle Lease Trust 2025-1",
+      "cik": "2069400",
+      "cusip": "05565RAA1",
+      "collateral": "Auto Lease ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto lease delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "BMW Vehicle Lease Trust 2024-1",
+      "cik": "2006654",
+      "cusip": "05565QAA3",
+      "collateral": "Auto Lease ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto lease delinquencies",
+      "credit_quality": "Prime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Toyota Auto Receivables 2021-A Owner Trust",
+      "cik": "0001838040",
+      "cusip": "TOYOTA21A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Toyota Auto Receivables Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2021 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Toyota Auto Receivables 2021-B Owner Trust",
+      "cik": "0001859855",
+      "cusip": "TOYOTA21A2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Toyota Auto Receivables Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2021 series 2",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Toyota Auto Receivables 2022-A Owner Trust",
+      "cik": "0001897392",
+      "cusip": "TOYOTA22A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Toyota Auto Receivables Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2022 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Toyota Auto Receivables 2022-B Owner Trust",
+      "cik": "0001914281",
+      "cusip": "TOYOTA22A2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class B",
+      "shelf": "Toyota Auto Receivables Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2022 series 2",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Toyota Auto Receivables 2023-A Owner Trust",
+      "cik": "0001955778",
+      "cusip": "TOYOTA23A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Toyota Auto Receivables Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2023 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Honda Auto Receivables Owner Trust 2021-1",
+      "cik": "0001840882",
+      "cusip": "HONDA21A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Honda Auto Receivables Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2021 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Honda Auto Receivables Owner Trust 2021-2",
+      "cik": "0001857290",
+      "cusip": "HONDA21A2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Honda Auto Receivables Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2021 series 2",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Honda Auto Receivables Owner Trust 2022-1",
+      "cik": "0001902266",
+      "cusip": "HONDA22A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Honda Auto Receivables Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2022 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Honda Auto Receivables Owner Trust 2022-2",
+      "cik": "0001937619",
+      "cusip": "HONDA22A2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Honda Auto Receivables Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2022 series 2",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Ford Credit Auto Owner Trust 2021-A",
+      "cik": "0001843634",
+      "cusip": "FORD21A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Ford Credit Auto Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime retail auto loans, 2021 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Ford Credit Auto Owner Trust 2022-1",
+      "cik": "0001896310",
+      "cusip": "FORD22A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Ford Credit Auto Owner Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime retail auto loans, 2022 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "GM Financial Auto Receivables Trust 2021-1",
+      "cik": "1909700",
+      "cusip": "GMF21A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "GM Financial Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2021 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "GM Financial Auto Receivables Trust 2021-2",
+      "cik": "1930102",
+      "cusip": "GMF21A2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "GM Financial Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2021 series 2",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "GM Financial Auto Receivables Trust 2022-1",
+      "cik": "1912966",
+      "cusip": "GMF22A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "GM Financial Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2022 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Hyundai Auto Receivables Trust 2021-A",
+      "cik": "0001853902",
+      "cusip": "HYUNDA21A",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Hyundai Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2021-A",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Hyundai Auto Receivables Trust 2022-A",
+      "cik": "0001913196",
+      "cusip": "HYUNDA22A",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Hyundai Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2022-A",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Ally Auto Receivables Trust 2021-1",
+      "cik": "0001922474",
+      "cusip": "ALLY21A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Ally Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2021 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Ally Auto Receivables Trust 2022-1",
+      "cik": "1922474",
+      "cusip": "ALLY22A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Ally Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2022 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Capital One Prime Auto Receivables Trust 2021-1",
+      "cik": "0001885053",
+      "cusip": "COFPA21A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Capital One Prime Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2021 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Capital One Prime Auto Receivables Trust 2022-1",
+      "cik": "0001924168",
+      "cusip": "COFPA22A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Capital One Prime Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Prime",
+      "notes": "Prime auto loans, 2022 series 1",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Santander Drive Auto Receivables Trust 2021-1",
+      "cik": "0001839893",
+      "cusip": "SDART21A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Santander Drive Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Subprime auto loans, 2021-1 series",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Santander Drive Auto Receivables Trust 2022-1",
+      "cik": "0001905242",
+      "cusip": "SDART22A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Santander Drive Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Subprime auto loans, 2022-1 series",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Santander Drive Auto Receivables Trust 2023-1",
+      "cik": "0001959826",
+      "cusip": "SDART23A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Santander Drive Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Subprime auto loans, 2023-1 series",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Drive Auto Receivables Trust 2020-1",
+      "cik": "0001798272",
+      "cusip": "DRIVE20A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Drive Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Subprime auto loans, 2020-1 series",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Drive Auto Receivables Trust 2021-1",
+      "cik": "0001854012",
+      "cusip": "DRIVE21A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Drive Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Subprime auto loans, 2021-1 series",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Drive Auto Receivables Trust 2022-1",
+      "cik": "1967095",
+      "cusip": "DRIVE22A1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Drive Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Subprime auto loans, 2022-1 series",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "AmeriCredit Auto Receivables Trust 2021-1",
+      "cik": "1843443",
+      "cusip": "03066EAA4",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "AmeriCredit Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "GM Financial subprime arm. Higher DQ thresholds, meaningful breach history.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "AmeriCredit Auto Receivables Trust 2021-2",
+      "cik": "1861570",
+      "cusip": "03066FAA2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "AmeriCredit Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "GM Financial subprime arm, 2021-2 series.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "AmeriCredit Auto Receivables Trust 2022-1",
+      "cik": "1910595",
+      "cusip": "03066GAA0",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "AmeriCredit Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "GM Financial subprime arm, 2022-1. Post-pandemic vintage with elevated losses.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "AmeriCredit Auto Receivables Trust 2022-2",
+      "cik": "1929381",
+      "cusip": "03066HAA8",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "AmeriCredit Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "GM Financial subprime arm, 2022-2. One of the most stressed post-COVID vintages.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "AmeriCredit Auto Receivables Trust 2023-1",
+      "cik": "1963240",
+      "cusip": "03066JAA3",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "AmeriCredit Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "GM Financial subprime arm, 2023-1.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2021-A",
+      "cik": "1836922",
+      "cusip": "12638RAA1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "CPS Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "notes": "Consumer Portfolio Services. Deep subprime auto. Higher base DQ rates and tighter cushion to triggers historically.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2021-C",
+      "cik": "1878540",
+      "cusip": "12638TAA7",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "CPS Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "notes": "Consumer Portfolio Services, 2021-C. Deep subprime, meaningful loss and DQ volatility.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2022-A",
+      "cik": "1898034",
+      "cusip": "12638UAA5",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "CPS Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "notes": "Consumer Portfolio Services, 2022-A. Post-pandemic normalization hit deep subprime hard.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2022-C",
+      "cik": "1939187",
+      "cusip": "12638VAA3",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "CPS Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "notes": "Consumer Portfolio Services, 2022-C.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2023-A",
+      "cik": "1961703",
+      "cusip": "12638WAA1",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "CPS Auto Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "notes": "Consumer Portfolio Services, 2023-A.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2021-1",
+      "cik": "1525672",
+      "cusip": "96042LAA0",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Westlake Automobile Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Westlake Financial subprime auto. LA-based originator, high DQ rates.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "trigger_threshold_override": 0.055
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2021-3",
+      "cik": "1525672",
+      "cusip": "96042NAA6",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Westlake Automobile Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Westlake Financial subprime auto, 2021-3.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "trigger_threshold_override": 0.055
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2022-1",
+      "cik": "1525672",
+      "cusip": "96042PAA2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Westlake Automobile Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Westlake Financial, 2022-1. Elevated losses in post-COVID normalization.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "trigger_threshold_override": 0.055
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2022-3",
+      "cik": "1525672",
+      "cusip": "96042QAA0",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Westlake Automobile Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Westlake Financial, 2022-3.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "trigger_threshold_override": 0.055
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2023-1",
+      "cik": "1525672",
+      "cusip": "96042RAA8",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "Westlake Automobile Receivables Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "Westlake Financial, 2023-1.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "trigger_threshold_override": 0.055
+    },
+    {
+      "deal_id": "United Auto Credit Securitization Trust 2021-1",
+      "cik": "1848903",
+      "cusip": "90931AAA6",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "United Auto Credit Securitization Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "United Auto Credit deep subprime. Known for high DQ and some historical trigger stress.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "United Auto Credit Securitization Trust 2022-1",
+      "cik": "1905819",
+      "cusip": "90931BAA4",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "United Auto Credit Securitization Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "United Auto Credit, 2022-1. Stress vintage.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "United Auto Credit Securitization Trust 2022-2",
+      "cik": "1936714",
+      "cusip": "90931CAA2",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "United Auto Credit Securitization Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "United Auto Credit, 2022-2.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "United Auto Credit Securitization Trust 2023-1",
+      "cik": "1963812",
+      "cusip": "90931DAA0",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "shelf": "United Auto Credit Securitization Trust",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Subprime",
+      "notes": "United Auto Credit, 2023-1.",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ]
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2023-1",
+      "cik": "1993328",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.07,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-1",
+      "cik": "2006743",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.07,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-2",
+      "cik": "2018148",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.07,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-3",
+      "cik": "2029465",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.07,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-4",
+      "cik": "2036955",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.07,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-1",
+      "cik": "2050168",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.075,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-2",
+      "cik": "2059166",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.075,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-3",
+      "cik": "2075766",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.075,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-4",
+      "cik": "2086742",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.075,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    },
+    {
+      "deal_id": "Bridgecrest Lending Auto Securitization Trust 2026-1",
+      "cik": "2101434",
+      "cusip": "",
+      "collateral": "Auto ABS",
+      "geo": "US",
+      "tranche": "Class A",
+      "macro_theme": "Auto delinquencies",
+      "macro_series": "Auto ABS delinquencies",
+      "credit_quality": "Deep Subprime",
+      "triggers": [
+        {
+          "trigger_id": "DQ_TRIGGER",
+          "metric_key": "delinquency_60_plus",
+          "metric_label": "60+ DQ %",
+          "direction": "<=",
+          "series_key": "dq"
+        }
+      ],
+      "force_threshold_override": 0.075,
+      "threshold_source_note": "Filing-derived trigger disclosure (10-D Exhibit 99.1)."
+    }
+  ]
+}

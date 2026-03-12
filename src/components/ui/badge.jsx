@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:60bd62802032150792fd839e64dd5889a793749d47b76e88f02279c3c73e33dc
-size 508
+import React from 'react'
+
+const base = 'inline-flex items-center rounded-full border px-2.5 py-1 text-xs font-medium'
+
+const variants = {
+  outline: 'border-border text-foreground',
+  secondary: 'border-transparent bg-[#f6d465] text-[#3b2f00]',
+  destructive: 'border-transparent bg-[hsl(var(--destructive))] text-white',
+}
+
+export function Badge({ variant = 'outline', className = '', ...props }) {
+  return <span className={`${base} ${variants[variant] || variants.outline} ${className}`} {...props} />
+}
