@@ -1,0 +1,298 @@
+{
+  "total_rows_missing": 19,
+  "by_metric": {
+    "ex99": 19
+  },
+  "by_reason": {
+    "no_ex99": 19
+  },
+  "by_deal": {
+    "Drive Auto Receivables Trust 2023-2": 1,
+    "GM Financial Auto Receivables Trust 2021-1": 1,
+    "GM Financial Auto Receivables Trust 2021-2": 1,
+    "GM Financial Auto Receivables Trust 2022-1": 1,
+    "Drive Auto Receivables Trust 2022-1": 1,
+    "CPS Auto Receivables Trust 2021-A": 1,
+    "CPS Auto Receivables Trust 2021-C": 1,
+    "CPS Auto Receivables Trust 2022-A": 1,
+    "CPS Auto Receivables Trust 2022-C": 1,
+    "CPS Auto Receivables Trust 2023-A": 1,
+    "Westlake Automobile Receivables Trust 2021-1": 1,
+    "Westlake Automobile Receivables Trust 2021-3": 1,
+    "Westlake Automobile Receivables Trust 2022-1": 1,
+    "Westlake Automobile Receivables Trust 2022-3": 1,
+    "Westlake Automobile Receivables Trust 2023-1": 1,
+    "United Auto Credit Securitization Trust 2021-1": 1,
+    "United Auto Credit Securitization Trust 2022-1": 1,
+    "United Auto Credit Securitization Trust 2022-2": 1,
+    "United Auto Credit Securitization Trust 2023-1": 1
+  },
+  "rows": [
+    {
+      "deal_id": "Drive Auto Receivables Trust 2023-2",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "GM Financial Auto Receivables Trust 2021-1",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "GM Financial Auto Receivables Trust 2021-2",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "GM Financial Auto Receivables Trust 2022-1",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "Drive Auto Receivables Trust 2022-1",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2021-A",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2021-C",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2022-A",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2022-C",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "CPS Auto Receivables Trust 2023-A",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2021-1",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2021-3",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2022-1",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2022-3",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "Westlake Automobile Receivables Trust 2023-1",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "United Auto Credit Securitization Trust 2021-1",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "United Auto Credit Securitization Trust 2022-1",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "United Auto Credit Securitization Trust 2022-2",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    },
+    {
+      "deal_id": "United Auto Credit Securitization Trust 2023-1",
+      "trigger_id": "DQ_TRIGGER",
+      "period_end": "",
+      "source_url": "",
+      "primary_doc_url": "",
+      "ex99_url": "",
+      "ex99_filename": "",
+      "missing_metrics": [
+        "ex99"
+      ],
+      "status": "missing",
+      "reason": "no_ex99"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+issuer,credit_quality,n_obs,breach_rate,avg_cushion,avg_trend3m,avg_vol6m,pred_breach_prob
+AmeriCredit,Subprime,144,0.0625,0.4653,0.001484,0.002123,0.0584
+Drive Auto,Subprime,74,0.0,0.7391,0.006119,0.005468,0.0052
+Santander Drive,Subprime,175,0.0,0.7342,0.006927,0.00369,0.0013
+Honda,Prime,118,0.0,0.9687,7.9e-05,0.000243,0.0
+Hyundai,Prime,86,0.0,0.9658,0.000129,0.00044,0.0
+Nissan,Prime,10,0.0,0.9824,0.00041,0.000159,0.0
+Toyota,Prime,190,0.0,0.9033,0.000395,0.000475,0.0

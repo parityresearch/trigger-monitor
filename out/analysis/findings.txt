@@ -1,0 +1,38 @@
+======================================================================
+  ABS Trigger Breach Analysis — Key Findings
+======================================================================
+
+Dataset: 797 observations | 35 deals | {'Prime': 404, 'Subprime': 393}
+
+── MODEL PERFORMANCE ──────────────────────────────────────────────
+  Cross-val AUC:   0.996 ± 0.005
+  In-sample AUC:   0.997
+  AUC by segment:  Prime 0.000  |  Subprime 0.994
+
+── FEATURE IMPORTANCE (standardised logit coefficients) ───────────
+  OC/Trigger Cushion                   -0.505  ↓ risk
+  Macro Regime Percentile              -0.127  ↓ risk
+  3-Month DQ Trend                     -0.003  ↓ risk
+  6-Month DQ Volatility                +0.002  ↑ risk
+
+── PRIME vs SUBPRIME ───────────────────────────────────────────────
+  Observed breach rate:  Prime 0.0%  |  Subprime 2.3%
+  Avg OC cushion:        Prime 93.8%  |  Subprime 63.7%
+
+── VINTAGE COHORT (Subprime) ────────────────────────────────────────
+  2020  breach_rate=0.0%  avg_cushion=78.2%  n=10
+  2021  breach_rate=4.4%  avg_cushion=57.5%  n=135
+  2022  breach_rate=2.5%  avg_cushion=57.7%  n=120
+  2023  breach_rate=0.0%  avg_cushion=70.9%  n=87
+  2024  breach_rate=0.0%  avg_cushion=82.3%  n=41
+
+  2021-22 vs 2023-24 avg breach rate: 3.5% vs 0.0%
+
+── TOP 5 RISKIEST ISSUERS (by predicted breach prob) ───────────────
+  AmeriCredit            [Subprime]  pred=5.8%  actual=6.2%  cushion=46.5%
+  Drive Auto             [Subprime]  pred=0.5%  actual=0.0%  cushion=73.9%
+  Santander Drive        [Subprime]  pred=0.1%  actual=0.0%  cushion=73.4%
+  Honda                  [Prime   ]  pred=0.0%  actual=0.0%  cushion=96.9%
+  Hyundai                [Prime   ]  pred=0.0%  actual=0.0%  cushion=96.6%
+
+======================================================================

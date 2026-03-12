@@ -1,0 +1,152 @@
+[
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2021-1",
+    "current_override": 0.055,
+    "recommended_threshold": 0.055,
+    "recommended_source": "override_only",
+    "ex99_mode_threshold": null,
+    "prospectus_url": "",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2021-3",
+    "current_override": 0.055,
+    "recommended_threshold": 0.055,
+    "recommended_source": "override_only",
+    "ex99_mode_threshold": null,
+    "prospectus_url": "",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2022-1",
+    "current_override": 0.055,
+    "recommended_threshold": 0.055,
+    "recommended_source": "override_only",
+    "ex99_mode_threshold": null,
+    "prospectus_url": "",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2022-3",
+    "current_override": 0.055,
+    "recommended_threshold": 0.055,
+    "recommended_source": "override_only",
+    "ex99_mode_threshold": null,
+    "prospectus_url": "",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2023-1",
+    "current_override": 0.055,
+    "recommended_threshold": 0.055,
+    "recommended_source": "override_only",
+    "ex99_mode_threshold": null,
+    "prospectus_url": "",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2023-1",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/1993328/000119312523259935/d523126d424b5.htm",
+    "prospectus_cached": true,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-1",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2006743/000119312524011245/d109807d424b5.htm",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-2",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2018148/000119312524102856/d819220d424b5.htm",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-3",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2029465/000119312524181530/d848011d424b5.htm",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-4",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2036955/000119312524239576/d761612d424b5.htm",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-1",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2050168/000119312525012110/d902532d424b5.htm",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-2",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2059166/000110465925050444/tm2513360d9_424b5.htm",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-3",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2075766/000110465925070765/tm2520926d8_424b5.htm",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-4",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2086742/000110465925100439/tm2528191d8_424b5.htm",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2026-1",
+    "current_override": 0.5,
+    "recommended_threshold": 0.5,
+    "recommended_source": "ex99_cached",
+    "ex99_mode_threshold": 0.5,
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2101434/000110465926006210/tm2533696d8_424b5.htm",
+    "prospectus_cached": false,
+    "prospectus_threshold": null
+  }
+]

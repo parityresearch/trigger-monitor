@@ -1,0 +1,20 @@
+deal_id,trigger_id,period_end,source_url,primary_doc_url,ex99_url,ex99_filename,missing_metrics,status,reason
+Drive Auto Receivables Trust 2023-2,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+GM Financial Auto Receivables Trust 2021-1,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+GM Financial Auto Receivables Trust 2021-2,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+GM Financial Auto Receivables Trust 2022-1,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+Drive Auto Receivables Trust 2022-1,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+CPS Auto Receivables Trust 2021-A,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+CPS Auto Receivables Trust 2021-C,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+CPS Auto Receivables Trust 2022-A,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+CPS Auto Receivables Trust 2022-C,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+CPS Auto Receivables Trust 2023-A,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+Westlake Automobile Receivables Trust 2021-1,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+Westlake Automobile Receivables Trust 2021-3,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+Westlake Automobile Receivables Trust 2022-1,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+Westlake Automobile Receivables Trust 2022-3,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+Westlake Automobile Receivables Trust 2023-1,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+United Auto Credit Securitization Trust 2021-1,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+United Auto Credit Securitization Trust 2022-1,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+United Auto Credit Securitization Trust 2022-2,DQ_TRIGGER,,,,,,ex99,missing,no_ex99
+United Auto Credit Securitization Trust 2023-1,DQ_TRIGGER,,,,,,ex99,missing,no_ex99

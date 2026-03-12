@@ -1,0 +1,167 @@
+[
+  {
+    "deal_id": "AmeriCredit Auto Receivables Trust 2021-1",
+    "current_override": 0.04,
+    "status": "prospectus_fetch_failed",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/1843443/000119312521069428/d136077d424b5.htm",
+    "filing_date": "2021-03-04",
+    "detail": "503 Server Error: Service Unavailable for url: https://www.sec.gov/Archives/edgar/data/1843443/000119312521069428/d136077d424b5.htm"
+  },
+  {
+    "deal_id": "AmeriCredit Auto Receivables Trust 2021-2",
+    "current_override": 0.04,
+    "status": "prospectus_fetch_failed",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/1861570/000119312521187922/d187425d424b5.htm",
+    "filing_date": "2021-06-10",
+    "detail": "503 Server Error: Service Unavailable for url: https://www.sec.gov/Archives/edgar/data/1861570/000119312521187922/d187425d424b5.htm"
+  },
+  {
+    "deal_id": "AmeriCredit Auto Receivables Trust 2022-1",
+    "current_override": 0.045,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/1910595/000119312522074554/d309198d424b5.htm",
+    "filing_date": "2022-03-14",
+    "prospectus_threshold": 0.053,
+    "all_thresholds": "0.053",
+    "snippet": "tual payment by the related contractual due date. If the delinquency rate for any collection period exceeds the related delinquency trigger rate then the delinquency trigger will have been breached for that collection period. The delinquency trigger rate will be as follows: &nbsp; &nbsp; &nbsp; Collection&nbsp;Period &nbsp; &nbsp;&nbsp; Delinquency&nbsp;Trigger&nbsp;Rate &nbsp; &nbsp; 1-12 &nbsp;&"
+  },
+  {
+    "deal_id": "AmeriCredit Auto Receivables Trust 2022-2",
+    "current_override": 0.045,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/1929381/000119312522175429/d371209d424b5.htm",
+    "filing_date": "2022-06-16",
+    "prospectus_threshold": 0.053,
+    "all_thresholds": "0.053",
+    "snippet": "tual payment by the related contractual due date. If the delinquency rate for any collection period exceeds the related delinquency trigger rate then the delinquency trigger will have been breached for that collection period. The delinquency trigger rate will be as follows: &nbsp; 96 Table of Contents &nbsp; &nbsp; Collection&nbsp;Period &nbsp; &nbsp;&nbsp; Delinquency&nbsp;Trigger&nbsp;Rate &nbsp"
+  },
+  {
+    "deal_id": "AmeriCredit Auto Receivables Trust 2023-1",
+    "current_override": 0.05,
+    "status": "prospectus_fetch_failed",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/1963240/000119312523067699/d472744d424b5.htm",
+    "filing_date": "2023-03-10",
+    "detail": "503 Server Error: Service Unavailable for url: https://www.sec.gov/Archives/edgar/data/1963240/000119312523067699/d472744d424b5.htm"
+  },
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2021-1",
+    "current_override": 0.055,
+    "status": "no_424b_candidate"
+  },
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2021-3",
+    "current_override": 0.055,
+    "status": "no_424b_candidate"
+  },
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2022-1",
+    "current_override": 0.055,
+    "status": "no_424b_candidate"
+  },
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2022-3",
+    "current_override": 0.055,
+    "status": "no_424b_candidate"
+  },
+  {
+    "deal_id": "Westlake Automobile Receivables Trust 2023-1",
+    "current_override": 0.055,
+    "status": "no_424b_candidate"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2023-1",
+    "current_override": 0.07,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/1993328/000119312523259935/d523126d424b5.htm",
+    "filing_date": "2023-10-20",
+    "prospectus_threshold": 0.5,
+    "all_thresholds": "0.5",
+    "snippet": "ly preceding such date), as determined in accordance with the servicer&#146;s customary servicing practices. The &#147; Delinquency Trigger &#148; for any payment date and the related Collection Period is 50.00%. The Delinquency Trigger was calculated as a multiple of 2.5 times the previous historical monthly peak Delinquency Percentage, rounded to the nearest whole percentage, of BAC&#146;s secur"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-1",
+    "current_override": 0.07,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2006743/000119312524011245/d109807d424b5.htm",
+    "filing_date": "2024-01-19",
+    "prospectus_threshold": 0.5,
+    "all_thresholds": "0.5",
+    "snippet": "ly preceding such date), as determined in accordance with the servicer&#146;s customary servicing practices. The &#147; Delinquency Trigger &#148; for any payment date and the related Collection Period is 50.00%. The Delinquency Trigger was calculated as a multiple of 2.5 times the previous historical monthly peak Delinquency Percentage, rounded to the nearest whole percentage, of BAC&#146;s secur"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-2",
+    "current_override": 0.07,
+    "status": "prospectus_fetch_failed",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2018148/000119312524102856/d819220d424b5.htm",
+    "filing_date": "2024-04-19",
+    "detail": "503 Server Error: Service Unavailable for url: https://www.sec.gov/Archives/edgar/data/2018148/000119312524102856/d819220d424b5.htm"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-3",
+    "current_override": 0.07,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2029465/000119312524181530/d848011d424b5.htm",
+    "filing_date": "2024-07-19",
+    "prospectus_threshold": 0.5,
+    "all_thresholds": "0.5",
+    "snippet": "ly preceding such date), as determined in accordance with the servicer&#146;s customary servicing practices. The &#147; Delinquency Trigger &#148; for any payment date and the related Collection Period is 50.00%. The Delinquency Trigger was calculated as a multiple of 2.5 times the previous historical monthly peak Delinquency Percentage, rounded to the nearest whole percentage, of BAC&#146;s secur"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2024-4",
+    "current_override": 0.07,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2036955/000119312524239576/d761612d424b5.htm",
+    "filing_date": "2024-10-18",
+    "prospectus_threshold": 0.5,
+    "all_thresholds": "0.5",
+    "snippet": "ly preceding such date), as determined in accordance with the servicer&#146;s customary servicing practices. The &#147; Delinquency Trigger &#148; for any payment date and the related Collection Period is 50.00%. The Delinquency Trigger was calculated as a multiple of 2.5 times the previous historical monthly peak Delinquency Percentage, rounded to the nearest whole percentage, of BAC&#146;s secur"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-1",
+    "current_override": 0.075,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2050168/000119312525012110/d902532d424b5.htm",
+    "filing_date": "2025-01-24",
+    "prospectus_threshold": 0.5,
+    "all_thresholds": "0.5",
+    "snippet": "ly preceding such date), as determined in accordance with the servicer&#146;s customary servicing practices. The &#147; Delinquency Trigger &#148; for any payment date and the related Collection Period is 50.00%. The Delinquency Trigger was calculated as a multiple of 2.5 times the previous historical monthly peak Delinquency Percentage, rounded to the nearest whole percentage, of BAC&#146;s secur"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-2",
+    "current_override": 0.075,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2059166/000110465925050444/tm2513360d9_424b5.htm",
+    "filing_date": "2025-05-19",
+    "prospectus_threshold": 0.5,
+    "all_thresholds": "0.5",
+    "snippet": " preceding such date), as determined in accordance with the servicer&rsquo;s customary servicing practices. The &ldquo; Delinquency Trigger &rdquo; for any payment date and the related Collection Period is 50.00%. &nbsp; The Delinquency Trigger was calculated as a multiple of 2.5 times the previous historical monthly peak Delinquency Percentage, rounded to the nearest whole percentage, of BAC&rsqu"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-3",
+    "current_override": 0.075,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2075766/000110465925070765/tm2520926d8_424b5.htm",
+    "filing_date": "2025-07-25",
+    "prospectus_threshold": 0.5,
+    "all_thresholds": "0.5",
+    "snippet": " preceding such date), as determined in accordance with the servicer&rsquo;s customary servicing practices. The &ldquo; Delinquency Trigger &rdquo; for any payment date and the related Collection Period is 50.00%. &nbsp; The Delinquency Trigger was calculated as a multiple of 2.5 times the previous historical monthly peak Delinquency Percentage, rounded to the nearest whole percentage, of BAC&rsqu"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2025-4",
+    "current_override": 0.075,
+    "status": "ok",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2086742/000110465925100439/tm2528191d8_424b5.htm",
+    "filing_date": "2025-10-17",
+    "prospectus_threshold": 0.5,
+    "all_thresholds": "0.5",
+    "snippet": " preceding such date), as determined in accordance with the servicer&rsquo;s customary servicing practices. The &ldquo; Delinquency Trigger &rdquo; for any payment date and the related Collection Period is 50.00%. &nbsp; The Delinquency Trigger was calculated as a multiple of 2.5 times the previous historical monthly peak Delinquency Percentage, rounded to the nearest whole percentage, of BAC&rsqu"
+  },
+  {
+    "deal_id": "Bridgecrest Lending Auto Securitization Trust 2026-1",
+    "current_override": 0.075,
+    "status": "prospectus_fetch_failed",
+    "prospectus_url": "https://www.sec.gov/Archives/edgar/data/2101434/000110465926006210/tm2533696d8_424b5.htm",
+    "filing_date": "2026-01-23",
+    "detail": "503 Server Error: Service Unavailable for url: https://www.sec.gov/Archives/edgar/data/2101434/000110465926006210/tm2533696d8_424b5.htm"
+  }
+]

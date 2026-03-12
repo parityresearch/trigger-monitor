@@ -1,0 +1,42 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node/build
+node_modules/
+dist/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local SEC/debug caches and one-off probe artifacts
+out/sec_cache/
+out/sec_debug/
+out/westlake_probe*
+out/*_fix*.csv
+out/*_fix*.json
+out/*_threshold_fix*.csv
+out/*_threshold_fix*.json
+out/*_cap1_fix*.csv
+out/*_cap1_fix*.json
+out/*_bridgecrest*.csv
+out/*_bridgecrest*.json
+out/*_ameri_*.csv
+out/*_ameri_*.json
+out/*_honda_*.csv
+out/*_honda_*.json
+out/*_single.json
+out/*_one.csv
+out/*_one.json
+
+# Keep canonical analysis outputs in repo
+!out/trigger_training_data.csv
+!out/qa_summary.csv
+!out/qa_summary.json
+!out/qa_full.csv
+!out/validation_report.json
+!out/trigger_monitor_demo.json
+!out/analysis/
+!out/analysis/*
